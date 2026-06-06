@@ -54,6 +54,22 @@ export default function Home() {
         </div>
       </section>
 
+ <section className="py-16">
+  <div className="max-w-4xl mx-auto px-6 text-center">
+    <h2 className="text-3xl font-bold mb-6">
+      About Me
+    </h2>
+
+    <p className="text-gray-700 leading-8">
+      I am a Software Development student at Brigham Young University–Idaho
+      with interests in full-stack web development, software testing, and
+      backend API development. I enjoy building practical applications,
+      learning modern technologies, and collaborating with teams to solve
+      real-world problems.
+    </p>
+  </div>
+</section>     
+      
       {/* Technical Skills */}
       <section className="bg-gray-50 py-20">
         <div className="max-w-6xl mx-auto px-6">
@@ -244,6 +260,73 @@ export default function Home() {
     </div>
   </div>
       </section>
+
+<section className="py-16">
+  <div className="max-w-4xl mx-auto px-6 text-center">
+    <h2 className="text-3xl font-bold mb-6">
+      About Me
+    </h2>
+
+    <p className="text-gray-700 leading-8">
+      I am a Software Development student at Brigham Young University–Idaho
+      with interests in full-stack web development, software testing, and
+      backend API development. I enjoy building practical applications,
+      learning modern technologies, and collaborating with teams to solve
+      real-world problems.
+    </p>
+  </div>
+      </section>
+      
+      <section className="bg-gray-50 py-20">
+  <div className="max-w-6xl mx-auto px-6">
+    <h2 className="text-3xl font-bold text-center mb-12">
+      Current Focus
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-6">
+      <div className="bg-white p-6 rounded-lg shadow">
+        <h3 className="text-xl font-semibold mb-2">
+          Full-Stack Development
+        </h3>
+        <p className="text-gray-700">
+          Building modern web applications with React, Next.js,
+          Node.js, and REST APIs.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-lg shadow">
+        <h3 className="text-xl font-semibold mb-2">
+          Software Testing
+        </h3>
+        <p className="text-gray-700">
+          Learning quality assurance practices, debugging,
+          and test design techniques.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-lg shadow">
+        <h3 className="text-xl font-semibold mb-2">
+          Data Structures & Algorithms
+        </h3>
+        <p className="text-gray-700">
+          Strengthening problem-solving skills and preparing
+          for technical interviews.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-lg shadow">
+        <h3 className="text-xl font-semibold mb-2">
+          Modern Next.js Development
+        </h3>
+        <p className="text-gray-700">
+          Exploring App Router, TypeScript, accessibility,
+          and performance best practices.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
       <section className="py-20">
   <div className="max-w-6xl mx-auto px-6 text-center">
     <h2 className="text-3xl font-bold mb-8">
