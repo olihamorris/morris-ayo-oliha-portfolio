@@ -15,7 +15,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 text-xl text-gray-600">
-            Software Development Student at BYU-Idaho
+          Software Development Student | Aspiring Full-Stack Developer | Software Testing Enthusiast
           </p>
 
           <p className="mt-6 max-w-2xl text-gray-700">
@@ -41,6 +41,15 @@ export default function Home() {
             >
               LinkedIn
             </a>
+
+            <a
+  href="/Morris_Ayo_Oliha_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 bg-blue-600 text-white rounded-lg"
+>
+  Download Resume
+</a>
           </div>
         </div>
       </section>
@@ -113,34 +122,92 @@ export default function Home() {
             </div>
 
             <div className="border rounded-lg p-6 shadow-sm">
-              <h3 className="text-2xl font-semibold mb-3">
-                Nigerian Proverbs API
-              </h3>
-              <p className="text-gray-700">
-                RESTful API built with Node.js for storing and serving Nigerian
-                proverbs and cultural content.
-              </p>
-            </div>
+  <h3 className="text-2xl font-semibold mb-3">
+    Nigerian Proverbs API
+  </h3>
 
-            <div className="border rounded-lg p-6 shadow-sm">
-              <h3 className="text-2xl font-semibold mb-3">
-                Pan-African Fashion Lookbook
-              </h3>
-              <p className="text-gray-700">
-                Responsive web application showcasing African fashion
-                collections and designers using HTML, CSS, and JavaScript.
-              </p>
-            </div>
+  <p className="text-gray-700 mb-4">
+    RESTful API built with Node.js and Express for storing and serving
+    Nigerian proverbs and cultural content. Deployed on Render and
+    designed to demonstrate backend development, routing, and API design.
+  </p>
 
-            <div className="border rounded-lg p-6 shadow-sm">
-              <h3 className="text-2xl font-semibold mb-3">
-                Next.js Dashboard
-              </h3>
-              <p className="text-gray-700">
-                Dashboard application built while learning routing,
-                authentication, layouts, and modern Next.js development.
-              </p>
-            </div>
+  <div className="flex gap-3">
+    <a
+      href="https://nigerian-proverbs-api.onrender.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 bg-black text-white rounded-lg"
+    >
+      Live API
+    </a>
+
+    <a
+      href="https://github.com/olihamorris/nigerian-proverbs-api"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 border rounded-lg"
+    >
+      GitHub
+    </a>
+  </div>
+</div>
+
+  <div className="border rounded-lg p-6 shadow-sm">
+  <img
+    src="/fashion-lookbook.png"
+    alt="Pan-African Fashion Lookbook"
+    className="w-full rounded-lg mb-4 border"
+  />
+
+  <h3 className="text-2xl font-semibold mb-3">
+    Pan-African Fashion Lookbook
+  </h3>
+
+  <p className="text-gray-700 mb-4">
+    Responsive web application showcasing African fashion
+    collections and designers using HTML, CSS, and JavaScript.
+  </p>
+
+  <div className="flex gap-3">
+    <a
+      href="https://olihamorris.github.io/pan-african-fashion-lookbook/"
+      target="_blank"
+      className="px-4 py-2 bg-black text-white rounded-lg"
+    >
+      Live Demo
+    </a>
+
+    <a
+      href="https://github.com/olihamorris/pan-african-fashion-lookbook"
+      target="_blank"
+      className="px-4 py-2 border rounded-lg"
+    >
+      GitHub
+    </a>
+  </div>
+</div>
+
+  <div className="border rounded-lg p-6 shadow-sm">
+  <h3 className="text-2xl font-semibold mb-3">
+    Next.js Dashboard
+  </h3>
+
+  <p className="text-gray-700 mb-4">
+  Interactive dashboard application built with Next.js App Router,
+  TypeScript, Tailwind CSS, layouts, navigation, authentication
+  concepts, and data-driven user interfaces. Developed while
+  learning modern React and Next.js best practices.
+</p>
+
+  <a
+    href="https://github.com/olihamorris/wdd430-nextjs-dashboard"
+    target="_blank"
+    className="px-4 py-2 border rounded-lg"
+  >
+    GitHub
+  </a>
+</div>
           </div>
         </div>
       </section>
@@ -183,9 +250,16 @@ export default function Home() {
       Contact
     </h2>
 
-    <p className="text-gray-700 mb-8">
-      Feel free to connect with me through GitHub or LinkedIn.
-    </p>
+    <p className="text-gray-700 mb-4">
+  Feel free to connect with me through GitHub, LinkedIn, or email.
+</p>
+
+<a
+  href="mailto:olihamorris2000@gmail.com"
+  className="text-blue-600 hover:underline font-medium block mb-8"
+>
+  olihamorris2000@gmail.com
+</a>
 
     <div className="flex justify-center gap-4">
       <a
