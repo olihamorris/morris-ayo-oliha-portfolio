@@ -278,7 +278,15 @@ export default function Home() {
         className="px-6 py-3 border rounded-lg"
       >
         LinkedIn
-      </a>
+            </a>
+            <a
+  href="/Morris_Ayo_Oliha_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 bg-blue-600 text-white rounded-lg"
+>
+  Download Resume
+</a>
     </div>
   </div>
       </section>
