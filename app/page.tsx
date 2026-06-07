@@ -276,22 +276,6 @@ export default function Home() {
   </div>
       </section>
 
-<section className="py-16">
-  <div className="max-w-4xl mx-auto px-6 text-center">
-    <h2 className="text-3xl font-bold mb-6">
-      About Me
-    </h2>
-
-    <p className="text-gray-700 leading-8">
-      I am a Software Development student at Brigham Young University–Idaho
-      with interests in full-stack web development, software testing, and
-      backend API development. I enjoy building practical applications,
-      learning modern technologies, and collaborating with teams to solve
-      real-world problems.
-    </p>
-  </div>
-      </section>
-      
       <section id="education" className="bg-gray-50 py-20">
   <div className="max-w-6xl mx-auto px-6">
     <h2 className="text-4xl font-bold text-center mb-12">
