@@ -1,6 +1,21 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
+      <nav className="sticky top-0 bg-white border-b z-50">
+  <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 className="font-bold text-lg">
+      Morris Ayo Oliha
+    </h1>
+
+    <div className="flex gap-4 text-sm">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="flex flex-col items-center text-center">
@@ -18,7 +33,7 @@ export default function Home() {
           Software Development Student | Aspiring Full-Stack Developer | Software Testing Enthusiast
           </p>
 
-          <p className="mt-6 max-w-2xl text-gray-700">
+          <p className="mt-6 max-w-xl text-gray-700">
             Passionate about full-stack web development, software testing,
             and building practical applications that solve real-world problems.
           </p>
@@ -54,9 +69,9 @@ export default function Home() {
         </div>
       </section>
 
- <section className="py-16">
+<section id="about" className="py-16">
   <div className="max-w-4xl mx-auto px-6 text-center">
-    <h2 className="text-3xl font-bold mb-6">
+    <h2 className="text-4xl font-bold text-center mb-12">
       About Me
     </h2>
 
@@ -71,14 +86,14 @@ export default function Home() {
 </section>     
       
       {/* Technical Skills */}
-      <section className="bg-gray-50 py-20">
+     <section id="skills" className="bg-gray-50 py-20">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-4xl font-bold text-center mb-12">
             Technical Skills
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow">
+            <div className="bg-white p-6 rounded-xl shadow-md">
               <h3 className="text-xl font-semibold mb-4">
                 Programming Languages
               </h3>
@@ -90,7 +105,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow">
+            <div className="bg-white p-6 rounded-xl shadow-md">
               <h3 className="text-xl font-semibold mb-4">
                 Frontend Development
               </h3>
@@ -102,7 +117,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow">
+            <div className="bg-white p-6 rounded-xl shadow-md">
               <h3 className="text-xl font-semibold mb-4">
                 Backend & Tools
               </h3>
@@ -119,14 +134,14 @@ export default function Home() {
       </section>
 
       {/* Featured Projects */}
-      <section className="py-20">
+     <section id="projects" className="py-20">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-4xl font-bold text-center mb-12">
             Featured Projects
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="border rounded-lg p-6 shadow-sm">
+            <div className="bg-white p-6 rounded-xl shadow-md">
               <h3 className="text-2xl font-semibold mb-3">
                 Handcrafted Haven
               </h3>
@@ -137,7 +152,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="border rounded-lg p-6 shadow-sm">
+           <div className="bg-white p-6 rounded-xl shadow-md">
   <h3 className="text-2xl font-semibold mb-3">
     Nigerian Proverbs API
   </h3>
@@ -169,7 +184,7 @@ export default function Home() {
   </div>
 </div>
 
-  <div className="border rounded-lg p-6 shadow-sm">
+ <div className="border rounded-xl p-6 shadow-md hover:shadow-lg transition">
   <img
     src="/fashion-lookbook.png"
     alt="Pan-African Fashion Lookbook"
@@ -204,7 +219,7 @@ export default function Home() {
   </div>
 </div>
 
-  <div className="border rounded-lg p-6 shadow-sm">
+  <div className="border rounded-xl p-6 shadow-md hover:shadow-lg transition">
   <h3 className="text-2xl font-semibold mb-3">
     Next.js Dashboard
   </h3>
@@ -227,13 +242,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-gray-50 py-20">
+      <section id="education" className="bg-gray-50 py-20">
   <div className="max-w-6xl mx-auto px-6">
-    <h2 className="text-3xl font-bold text-center mb-12">
+    <h2 className="text-4xl font-bold text-center mb-12">
       Education
     </h2>
 
-    <div className="bg-white p-8 rounded-lg shadow">
+    <div className="bg-white p-6 rounded-xl shadow-md">
       <h3 className="text-2xl font-semibold">
         Bachelor of Science in Software Development
       </h3>
@@ -277,14 +292,14 @@ export default function Home() {
   </div>
       </section>
       
-      <section className="bg-gray-50 py-20">
+      <section id="education" className="bg-gray-50 py-20">
   <div className="max-w-6xl mx-auto px-6">
-    <h2 className="text-3xl font-bold text-center mb-12">
+    <h2 className="text-4xl font-bold text-center mb-12">
       Current Focus
     </h2>
 
     <div className="grid md:grid-cols-2 gap-6">
-      <div className="bg-white p-6 rounded-lg shadow">
+      <div className="bg-white p-6 rounded-xl shadow-md">
         <h3 className="text-xl font-semibold mb-2">
           Full-Stack Development
         </h3>
@@ -294,7 +309,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow">
+      <div className="bg-white p-6 rounded-xl shadow-md">
         <h3 className="text-xl font-semibold mb-2">
           Software Testing
         </h3>
@@ -304,7 +319,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow">
+      <div className="bg-white p-6 rounded-xl shadow-md">
         <h3 className="text-xl font-semibold mb-2">
           Data Structures & Algorithms
         </h3>
@@ -314,7 +329,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow">
+      <div className="bg-white p-6 rounded-xl shadow-md">
         <h3 className="text-xl font-semibold mb-2">
           Modern Next.js Development
         </h3>
@@ -327,9 +342,31 @@ export default function Home() {
   </div>
 </section>
 
+<section id="contact" className="py-20">
+  <div className="max-w-4xl mx-auto px-6 text-center">
+    <h2 className="text-4xl font-bold mb-6">
+      GitHub Profile
+    </h2>
+
+    <p className="text-gray-700 mb-8">
+      Explore my repositories, academic projects, personal projects,
+      and collaborative software development work on GitHub.
+    </p>
+
+    <a
+      href="https://github.com/olihamorris"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-6 py-3 bg-black text-white rounded-lg"
+    >
+      View GitHub Profile
+    </a>
+  </div>
+</section>
+      
       <section className="py-20">
   <div className="max-w-6xl mx-auto px-6 text-center">
-    <h2 className="text-3xl font-bold mb-8">
+    <h2 className="text-4xl font-bold mb-8">
       Contact
     </h2>
 
@@ -349,7 +386,7 @@ export default function Home() {
         href="https://github.com/olihamorris"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-6 py-3 bg-black text-white rounded-lg"
+       className="px-6 py-3 bg-black text-white rounded-xl hover:opacity-90 transition"
       >
         GitHub
       </a>
@@ -358,7 +395,7 @@ export default function Home() {
         href="https://www.linkedin.com/in/morris-oliha-050600209"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-6 py-3 border rounded-lg"
+        className="px-6 py-3 border rounded-xl hover:bg-gray-50 transition"
       >
         LinkedIn
             </a>
